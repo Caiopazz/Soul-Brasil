@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>FORMULÁRIOS</title>
+        <meta charset="utf-8">
+        <link   rel="stylesheet" href="estilo.css"> 
+    </head>
+    <body>
+        <header>
+            <h1>SOUL BRASIL</h1>
+        </header>
+        <main>
+          <form>
+             <h3>Cadastro de Artista</h3>
+
+             <label for="fname">Seu Nome Completo:</label><br>
+             <input type="nome" id="fname" name="fname" value="ex: José Pereira Da Silva"><br>
+             <label for="lname">Seu CFP</label><br>
+              <label>Data de nascimento</label><br>
+              <input type="date" name="dtnasc" size="20"required><br>
+                
+             <input type="cpf" id="lname" name="lname" value="ex: 000.000.000-00"><br>
+             <input type="submit" value="Submit"><br>
+
+             <h3>Contado</h3>
+             <label>Endereço</label>
+             <input type="text" name="end" size="40" required><br>
+             <label>Bairro</label>
+             <input type="text" name="bairro" size="20" required><br>
+             <label>Estado:</label><br>
+             <select id="estado" name="Estado">
+             <option value="Acre">AC</option>
+             <option value="Amazônia">AM</option>
+             <option value="Rorônia">RO</option>
+             <option value="Pará">PA</option>
+             <option value="Amapá">AP</option>
+             <option value="Bahia">BA</option>
+             <option value="Distrito Federal">DF</option>
+             <option value="Espírito Santo">ES</option>
+             <option value="Goiás">GO</option>
+             <option value="Maranhão">MA</option>
+             <option value="Mato Grosso">MT</option>
+             <option value="Mato Grosso do Sul">MS</option>
+             <option value="Minas Gerais">MG</option>
+             <option value="Paraná">PR</option>
+             <option value="Pernambuco">PE</option>
+             <option value="Piauí">PI</option>
+             <option value="Rio de Janeiro">RJ</option>
+             <option value="Rio Grande do Norte">RN</option>
+             <option value="Rio Grande do Sul">RS</option>
+             <option value="Rondônia">RR</option>
+             <option value="Santa Catarina">SC</option>
+             <option value="São Paulo ">SP</option>
+             <option value="Sergipe">SE</option>
+             <option value="Tocantins">TO</option>
+             <option value="Alagoas">AL</option>
+             </select><br>
+             <label>TeIefone para contato:
+             <input type="tel" name="telefone" size="18" required><br>
+             <label>E-mail:</label><br>
+             <input type="email" name="email" size="40"required><br>
+
+             <h3>Formação</h3>
+             <label>Escola de formação</label><br>
+             <input type="text" name="escola" required><br>
+             <label>Categoria:</label><br>
+             <input type="radio" name="categoria" value="1">
+             <label class="categoria">Dança</label>
+             <input type="radio" name="categoria" value="2">
+             <label class="categoria">Teatro</label>
+             <input type="radio" name="categoria" value="3">
+             <label class="categoria">Música</label>
+             <input type="radio" name="categoria" value="4">
+             <label class="categoria">Pintura</label>
+             <input type="radio" name="categoria" value="5">
+             <label class="categoria">Circense</labe1>
+             <input type="radio" name="categoria" value="6">
+             <label class="categoria">Cinema</label>
+             <input type="radio" name="categoria" value="7">
+             <label class="categoria">Escultura</label>
+             <input type="radio" name="categoria" value="8">
+             <label class="categoria">Literatura</label>
+             <br>
+
+             <label>Descrição das habilidades:</label><br>
+             <textarea cols="70" rows=" 5"></textarea><br><br>
+             
+             <input type="submit" name="btenviar" value="ENVIAR">
+
+
+        </form>
+    </main>
+ </body>
+</html>
+ 
